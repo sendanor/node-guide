@@ -265,7 +265,7 @@ function OurImplementation() {
 Use camelCase for method names:
 
 ```
-OurImplementation.prototype.print_foo = function() {
+OurImplementation.prototype.printFoo = function() {
 	console.log(this.foo);
 }
 ```
