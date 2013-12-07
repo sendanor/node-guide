@@ -3,6 +3,8 @@ node-guide
 
 Sendanor's Node.js and JavaScript Quick Reference Guide.
 
+******************************************************************************
+
 Project Files
 -------------
 
@@ -10,6 +12,8 @@ Project Files
 
 The main documentation for this project in [the Github Flavored Markdown 
 format](https://help.github.com/articles/github-flavored-markdown).
+
+******************************************************************************
 
 ### `package.json`
 
@@ -21,18 +25,24 @@ See also:
 * [An interactive guide to package.json](http://package.json.nodejitsu.com/)
 * [Developers Guide to NPM](https://npmjs.org/doc/developers.html)
 
-#### Automate tasks using `npm run`
+******************************************************************************
+
+#### Automate tasks using `npm run` ####
 
 See [Task automation with npm run by substack](http://substack.net/task_automation_with_npm_run).
 
-### `.gitignore`
+******************************************************************************
+
+### `.gitignore` ###
 
 This file lists all files and directories (one by line) that should be ignored 
 by git.
 
 It is also used by the NPM if `.npmignore` file does not exists.
 
-### `.sublime-project` and `.sublime-workspace`
+******************************************************************************
+
+### `.sublime-project` and `.sublime-workspace` ###
 
 `.sublime-project` is the project file for [Sublime Text Editor](http://www.sublimetext.com/).
 
@@ -41,12 +51,17 @@ and the modifications to each. It ***should not*** be in the repository.
 
 See also [Projects in Sublime Text 3](http://www.sublimetext.com/docs/3/projects.html).
 
+******************************************************************************
+
 Sendanor Style Guide
 --------------------
 
 We use a bit different style than [Node.js Style 
 Guide](https://github.com/felixge/node-style-guide) and we don't demand all of 
 it.
+
+
+******************************************************************************
 
 ### Tabs to indent, spaces to align
 
@@ -68,6 +83,9 @@ insignificant when using tabs to indent.
 
 See also [Indent with tabs, align with spaces](http://vim.wikia.com/wiki/Indent_with_tabs,_align_with_spaces).
 
+
+******************************************************************************
+
 ### Use Semicolons
 
 Even though Node.js usually does not break when semicolons are ommited, the 
@@ -77,6 +95,9 @@ multiple surprising ways.
 
 It also seems to be the community standard, see [Use 
 Semicolons](https://github.com/felixge/node-style-guide#use-semicolons).
+
+
+******************************************************************************
 
 ### No universal characters per line limit
 
@@ -88,6 +109,9 @@ Exception to this is a content like longer blocks of text in a documentation.
 This does not mean you should write long lines of code. Split them when it's 
 best for readability. Preferably after each instruction.
 
+
+******************************************************************************
+
 #### Line break after semicolons
 
 Use line break after each semicolon. This is probably very self-evident.
@@ -96,6 +120,9 @@ Use line break after each semicolon. This is probably very self-evident.
 console.log("Hello");
 console.log("World");
 ```
+
+
+******************************************************************************
 
 #### Documentation blocks
 
@@ -112,6 +139,9 @@ lines.
  */
 ```
 
+
+******************************************************************************
+
 #### Splitting objects in code
 
 Objects can be splitted on multiple lines by each property on its own 
@@ -124,6 +154,9 @@ var o = {
 	"longitude": 25.466667
 };
 ```
+
+
+******************************************************************************
 
 #### Splitting arrays in code
 
@@ -138,13 +171,19 @@ var arr = [
 };
 ```
 
+******************************************************************************
+
 ### Opening braces go on the same line
 
 See [Opening braces go on the same line](https://github.com/felixge/node-style-guide#opening-braces-go-on-the-same-line).
 
+******************************************************************************
+
 ### Declare one variable per var statement
 
 See [Declare one variable per var statement](https://github.com/felixge/node-style-guide#declare-one-variable-per-var-statement).
+
+******************************************************************************
 
 ### Lower or upper case
 
@@ -192,17 +231,25 @@ Use [UPPERCASE for Constants](https://github.com/felixge/node-style-guide#use-up
 var SECOND = 1 * 1000;
 ```
 
+******************************************************************************
+
 ### Use the === Operator
 
 See more [Use the === operator](https://github.com/felixge/node-style-guide#use-the--operator).
+
+******************************************************************************
 
 ### Write small functions
 
 See more [Write small functions](https://github.com/felixge/node-style-guide#write-small-functions).
 
+******************************************************************************
+
 ### Return early from functions
 
 See more [Return early from functions](https://github.com/felixge/node-style-guide#return-early-from-functions).
+
+******************************************************************************
 
 Promises
 --------
@@ -212,3 +259,5 @@ with our own [chainable method extension from nor-extend](https://github.com/sen
 
 On browser side we prefer using [jQuery 
 promises](http://api.jquery.com/category/deferred-object/).
+
+******************************************************************************
