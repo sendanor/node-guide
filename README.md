@@ -134,6 +134,72 @@ var arr = [
 };
 ```
 
+### Opening braces go on the same line
+
+See [Opening braces go on the same line](https://github.com/felixge/node-style-guide#opening-braces-go-on-the-same-line).
+
+### Declare one variable per var statement
+
+See [Declare one variable per var statement](https://github.com/felixge/node-style-guide#declare-one-variable-per-var-statement).
+
+### Lower or upper case
+
+Use underscores for variables, properties and normal function names:
+
+```
+var hello_world = "Hello World";
+```
+
+Use leading underscore for private local variables:
+
+```
+var _hello_world = "Hello World";
+```
+
+Use lower case for normal functions:
+
+```
+function print_foo() {
+	console.log("foo");
+}
+```
+
+Use UpperCamelCase for object constructor functions:
+
+```
+function OurImplementation() {
+	this.foo = "bar";
+}
+```
+
+Use camelCase for method names:
+
+```
+OurImplementation.prototype.print_foo = function() {
+	console.log(this.foo);
+}
+```
+
+...but ***prefer*** not to use names with multiple words in the first place.
+
+Use [UPPERCASE for Constants](https://github.com/felixge/node-style-guide#use-uppercase-for-constants):
+
+```
+var SECOND = 1 * 1000;
+```
+
+### Use the === Operator
+
+See more [Use the === operator](https://github.com/felixge/node-style-guide#use-the--operator).
+
+### Write small functions
+
+See more [Write small functions](https://github.com/felixge/node-style-guide#write-small-functions).
+
+### Return early from functions
+
+See more [Return early from functions](https://github.com/felixge/node-style-guide#return-early-from-functions).
+
 Promises
 --------
 
