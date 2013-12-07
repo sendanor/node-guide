@@ -22,7 +22,9 @@ See also:
 
 ### `.gitignore`
 
-This file lists all files and directories (one by line) that should be ignored by git. It also is used by the NPM if `.npmignore` file does not exists.
+This file lists all files and directories (one by line) that should be ignored by git. 
+
+It is also used by the NPM if `.npmignore` file does not exists.
 
 ### `.sublime-project` and `.sublime-workspace`
 
