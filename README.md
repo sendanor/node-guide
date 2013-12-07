@@ -10,7 +10,7 @@ Project Files
 
 ### `README.md`
 
-The main documentation for this project in [the Github Flavored Markdown 
+The main documentation for a project in [the Github Flavored Markdown 
 format](https://help.github.com/articles/github-flavored-markdown).
 
 ******************************************************************************
