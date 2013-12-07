@@ -1,0 +1,25 @@
+{
+  "name": "node-guide",
+  "version": "0.1.0",
+  "description": "Sendanor Node.js and JavaScript Guide",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sendanor/node-guide"
+  },
+  "author": "",
+  "license": "CC BY-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/Sendanor/node-guide/issues"
+  },
+  "devDependencies": {
+    "doctoc": "*"
+  },
+  "scripts": {
+    "build": "doctoc README.md"
+  }
+}

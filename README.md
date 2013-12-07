@@ -1,3 +1,28 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [node-guide](#node-guide)
+	- [Project Files](#project-files)
+		- [`README.md`](#readmemd)
+		- [`package.json`](#packagejson)
+			- [Automate tasks using `npm run`](#automate-tasks-using-npm-run)
+		- [`.gitignore`](#gitignore)
+		- [`.sublime-project` and `.sublime-workspace`](#sublime-project-and-sublime-workspace)
+	- [Sendanor Style Guide](#sendanor-style-guide)
+		- [Tabs to indent, spaces to align](#tabs-to-indent-spaces-to-align)
+		- [Use Semicolons](#use-semicolons)
+		- [No universal characters per line limit](#no-universal-characters-per-line-limit)
+			- [Line break after semicolons](#line-break-after-semicolons)
+			- [Documentation blocks](#documentation-blocks)
+			- [Splitting objects in code](#splitting-objects-in-code)
+			- [Splitting arrays in code](#splitting-arrays-in-code)
+		- [Opening braces go on the same line](#opening-braces-go-on-the-same-line)
+		- [Declare one variable per var statement](#declare-one-variable-per-var-statement)
+		- [Lower or upper case](#lower-or-upper-case)
+		- [Use the === Operator](#use-the-===-operator)
+		- [Write small functions](#write-small-functions)
+		- [Return early from functions](#return-early-from-functions)
+	- [Promises](#promises)
+
 node-guide
 ==========
 
