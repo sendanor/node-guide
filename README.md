@@ -7,6 +7,8 @@
 			- [Automate tasks using `npm run`](#automate-tasks-using-npm-run)
 		- [`.gitignore`](#gitignore)
 		- [`.sublime-project` and `.sublime-workspace`](#sublime-project-and-sublime-workspace)
+	- [The environment](#the-environment)
+		- [NODE_ENV](#node_env)
 	- [Sendanor Style Guide](#sendanor-style-guide)
 		- [Tabs to indent, spaces to align](#tabs-to-indent-spaces-to-align)
 		- [Use Semicolons](#use-semicolons)
@@ -75,6 +77,26 @@ It is also used by the NPM if `.npmignore` file does not exists.
 and the modifications to each. It ***should not*** be in the repository.
 
 See also [Projects in Sublime Text 3](http://www.sublimetext.com/docs/3/projects.html).
+
+******************************************************************************
+
+The environment
+---------------
+
+### NODE_ENV
+
+Make sure your development shell has `NODE_ENV=development` set when 
+developing. Some apps that use it do not correctly fallback to it if it is 
+undefined.
+
+```
+NODE_ENV=development
+export NODE_ENV
+```
+
+This is actually just a convention used by (at least) 
+[Express](http://expressjs.com/) and some hosting platforms. Not a real 
+standard.
 
 ******************************************************************************
 
