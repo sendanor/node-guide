@@ -21,6 +21,10 @@ See also:
 * [An interactive guide to package.json](http://package.json.nodejitsu.com/)
 * [Developers Guide to NPM](https://npmjs.org/doc/developers.html)
 
+#### Automate tasks using `npm run`
+
+See [Task automation with npm run by substack](http://substack.net/task_automation_with_npm_run).
+
 ### `.gitignore`
 
 This file lists all files and directories (one by line) that should be ignored 
