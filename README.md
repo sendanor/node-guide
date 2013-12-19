@@ -23,8 +23,13 @@
 		- [Use the === Operator](#use-the-===-operator)
 		- [Write small functions](#write-small-functions)
 		- [Return early from functions](#return-early-from-functions)
+		- [Example of difference with `new String` and `""`](#example-of-difference-with-new-string-and-)
+		- [JSON](#json)
+		- [JSON-Schema](#json-schema)
+		- [JSON-Patch and JSON-Diff](#json-patch-and-json-diff)
 	- [Promises](#promises)
 	- [Creating objects and arrays](#creating-objects-and-arrays)
+	- [JSON and tools](#json-and-tools)
 
 node-guide
 ==========
