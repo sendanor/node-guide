@@ -307,4 +307,11 @@ with our own [chainable method extension from nor-extend](https://github.com/sen
 On browser side we prefer using [jQuery 
 promises](http://api.jquery.com/category/deferred-object/).
 
+Creating objects and arrays
+---------------------------
+
+* Do not use `var o = new Object()`, use `var o = {};`.
+* Do not use `var a = new Array()`, use `var a = [];`.
+* Do not use `var s = String("hello")`, use `var s = "hello";`.
+
 ******************************************************************************
