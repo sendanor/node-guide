@@ -315,4 +315,19 @@ Creating objects and arrays
 * Do not use `var a = new Array()`, use `var a = [];`.
 * Do not use `var s = String("hello")`, use `var s = "hello";`.
 
+### Example
+
+Here's a demostration of the difference in `node` shell:
+
+```
+> var a = new String("hello");
+undefined
+> typeof a
+'object'
+> var b = "hello";
+undefined
+> typeof b
+'string'
+```
+
 ******************************************************************************
