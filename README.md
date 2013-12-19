@@ -340,7 +340,7 @@ JSON and tools
 
 ### JSON
 
-[JSON specification](http://json.org) is pretty simple single page standard and available.
+[JSON specification](http://json.org) is pretty simple single page standard and available online.
 
 JavaScript standard also has support for handling JSON.
 
