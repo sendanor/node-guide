@@ -330,4 +330,37 @@ undefined
 'string'
 ```
 
+JSON and tools
+--------------
+
+### JSON
+
+[JSON specification](http://json.org) is pretty simple single page standard and available.
+
+JavaScript standard also has support for handling JSON.
+
+Convert JavaScript to JSON:
+
+```
+> JSON.stringify([1,2,3])
+'[1,2,3]'
+```
+
+Convert JSON to JavaScript:
+
+```
+> JSON.parse('[1,2,3]')
+[ 1, 2, 3 ]
+```
+
+### JSON-Schema
+
+We use [JSON-Schema version 4](http://json-schema.org) and [tv4 library](https://github.com/geraintluff/tv4) in all environments (browser, node.js and PostgreSQL database servers).
+
+It seems to be production ready.
+
+### JSON-Patch and JSON-Diff
+
+JSON-patch and JSON-diff libs are not yet very production ready. There is also more than one different implementation with quite interesting bugs.
+
 ******************************************************************************
