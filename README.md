@@ -24,6 +24,7 @@
 		- [Write small functions](#write-small-functions)
 		- [Return early from functions](#return-early-from-functions)
 	- [Promises](#promises)
+	- [Creating objects and arrays](#creating-objects-and-arrays)
 
 node-guide
 ==========
