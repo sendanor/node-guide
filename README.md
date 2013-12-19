@@ -315,7 +315,7 @@ Creating objects and arrays
 * Do not use `var a = new Array()`, use `var a = [];`.
 * Do not use `var s = String("hello")`, use `var s = "hello";`.
 
-### Example
+### Example of difference with `new String` and `""`
 
 Here's a demostration of the difference in `node` shell:
 
