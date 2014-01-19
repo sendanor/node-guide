@@ -52,6 +52,12 @@ format](https://help.github.com/articles/github-flavored-markdown).
 
 The NPM package configuration file.
 
+Take a look at:
+
+* `npm help json`
+* `npm help scripts`
+* `npm help config`
+
 See also: 
 
 * [Documentation for package.json](https://npmjs.org/doc/json.html)
@@ -62,7 +68,8 @@ See also:
 
 #### Automate tasks using `npm run` ####
 
-See [Task automation with npm run by substack](http://substack.net/task_automation_with_npm_run).
+See [Task automation with npm run by substack](http://substack.net/task_automation_with_npm_run) 
+and `npm help scripts`.
 
 ******************************************************************************
 
