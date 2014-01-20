@@ -375,4 +375,27 @@ It seems to be production ready.
 
 JSON-patch and JSON-diff libs are not yet very production ready. There is also more than one different implementation with quite interesting bugs.
 
+### Iterate over arrays and objects
+
+For Arrays use `.forEach()` (or `.map()`):
+
+```
+[1, 2, 3].forEach(function(i) {
+	// do something with i ...
+});
+```
+
+For Objects use compination of `Object.keys()` and `.forEach()` (or `.map()`):
+
+```
+var obj = {"foo":"bar", "bar":"foo"};
+Object.keys(obj).forEach(function(key) {
+	var value = obj[key];
+	// do something with value and key ...
+});
+```
+
+***Never*** use JavaScript `in` operator. Most times it's not what you want. See [stackoverflow #500504](http://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-such-a-bad-idea).
+
+
 ******************************************************************************
