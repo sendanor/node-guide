@@ -27,6 +27,7 @@
 		- [JSON](#json)
 		- [JSON-Schema](#json-schema)
 		- [JSON-Patch and JSON-Diff](#json-patch-and-json-diff)
+		- [Iterate over arrays and objects](#iterate-over-arrays-and-objects)
 	- [Promises](#promises)
 	- [Creating objects and arrays](#creating-objects-and-arrays)
 	- [JSON and tools](#json-and-tools)

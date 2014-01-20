@@ -5,6 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+	"build": "npm run build-toc",
+	"build-toc": "doctoc README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
