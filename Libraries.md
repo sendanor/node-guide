@@ -15,7 +15,7 @@
 
 ### Translations
 
-* [sendanor/joker-confirmation-page|https://github.com/sendanor/joker-confirmation-page] -- private project at the moment -- has interesting TR library for translating HTML5 web pages
+* [sendanor/joker-confirmation-page](https://github.com/sendanor/joker-confirmation-page) -- private project at the moment -- has interesting TR library for translating HTML5 web pages
 
 ### TODO
 
