@@ -1,4 +1,6 @@
 
+# Our recommended libraries
+
 ### Frontend
 
 * User interfaces, http://jquery.com/
@@ -17,6 +19,6 @@
 
 ### TODO
 
-We aren't tested nor use these yet but might be interesting:
+We aren't tested -- nor use these yet -- but might be interesting:
 
 * CSS - Flags, http://github.com/lipis/flag-icon-css (
