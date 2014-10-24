@@ -7,10 +7,12 @@
 			- [Automate tasks using `npm run`](#automate-tasks-using-npm-run)
 		- [`.gitignore`](#gitignore)
 		- [`.sublime-project` and `.sublime-workspace`](#sublime-project-and-sublime-workspace)
-	- [The environment](#the-environment)
+		- [`.netrc`](#netrc)
+		- [Example `.netrc` for Github](#example-netrc-for-github)
 		- [NODE_ENV](#node_env)
-	- [Sendanor Style Guide](#sendanor-style-guide)
+	- [The environment](#the-environment)
 		- [Tabs to indent, spaces to align](#tabs-to-indent-spaces-to-align)
+	- [Sendanor Style Guide](#sendanor-style-guide)
 		- [Use Semicolons](#use-semicolons)
 		- [No universal characters per line limit](#no-universal-characters-per-line-limit)
 			- [Line break after semicolons](#line-break-after-semicolons)
@@ -91,6 +93,40 @@ It is also used by the NPM if `.npmignore` file does not exists.
 and the modifications to each. It ***should not*** be in the repository.
 
 See also [Projects in Sublime Text 3](http://www.sublimetext.com/docs/3/projects.html).
+
+******************************************************************************
+
+### `.netrc` ###
+
+You can use oauth services like Github directly with `curl`, `git`, or any other tool in shell.
+
+  1. Get oauth token
+    1. Using a web browser, see [Creating a token for CLI at Github](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
+    2. You can also create it using [Github API](https://developer.github.com/v3/oauth_authorizations/#create-a-new-authorization)
+  2. Create the file: `touch .netrc && chmod 600 .netrc`
+  3. Save the token to `.netrc` file, see example below.
+
+### Example `.netrc` for Github
+
+```
+machine github.com
+  login s5WaTA9nMuHtoTn56CnC2hqfwCGTpHNm
+  password x-oauth-basic
+
+machine raw.github.com
+  login s5WaTA9nMuHtoTn56CnC2hqfwCGTpHNm
+  password x-oauth-basic
+
+machine git.github.com
+  login s5WaTA9nMuHtoTn56CnC2hqfwCGTpHNm
+  password x-oauth-basic
+
+machine api.github.com
+  login s5WaTA9nMuHtoTn56CnC2hqfwCGTpHNm
+  password x-oauth-basic
+```
+
+... where `s5WaTA9nMuHtoTn56CnC2hqfwCGTpHNm` is your Github oauth token.
 
 ******************************************************************************
 

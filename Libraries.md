@@ -1,11 +1,17 @@
 
 # Our recommended libraries
 
+### Node
+
+* Minimist, CLI argument parsing, https://www.npmjs.org/package/minimist
+
 ### Frontend
 
 * User interfaces, http://jquery.com/
 * Mobile user interfaces, http://jqueryui.com/
 * Typeahead library, https://twitter.github.io/typeahead.js/
+* Browserify, http://browserify.org/
+* Disc, visualising browserify bundles, https://www.npmjs.org/package/disc
 
 ### CSS
 
