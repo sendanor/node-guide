@@ -96,17 +96,17 @@ See also [Projects in Sublime Text 3](http://www.sublimetext.com/docs/3/projects
 
 ******************************************************************************
 
-### `.netrc` ###
+### `~/.netrc` ###
 
 You can use oauth services like Github directly with `curl`, `git`, or any other tool in shell.
 
   1. Get oauth token
     1. Using a web browser, see [Creating a token for CLI at Github](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
     2. You can also create it using [Github API](https://developer.github.com/v3/oauth_authorizations/#create-a-new-authorization)
-  2. Create the file: `touch .netrc && chmod 600 .netrc`
-  3. Save the token to `.netrc` file, see example below.
+  2. Create the file: `touch ~/.netrc && chmod 600 ~/.netrc`
+  3. Save the token to `~/.netrc` file, see example below.
 
-### Example `.netrc` for Github
+### Example `~/.netrc` for Github
 
 ```
 machine github.com
