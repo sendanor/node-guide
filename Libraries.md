@@ -13,6 +13,11 @@
 * Browserify, http://browserify.org/
 * Disc, visualising browserify bundles, https://www.npmjs.org/package/disc
 
+### JavaScript libraries (for Browserify + Node)
+
+* [sendanor/nor-timezones](sendanor/nor-timezones)
+* [Moment.js](http://momentjs.com/)
+
 ### CSS
 
 * Layout, http://purecss.io/
