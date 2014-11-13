@@ -436,3 +436,30 @@ Object.keys(obj).forEach(function(key) {
 
 
 ******************************************************************************
+
+### Avoid using .bind(), .apply(), .call()
+
+These methods and especially the resulting function are really slow, at least at the moment -- time of writing is 2014.
+
+For example when you need to do things like this:
+
+```javascript
+var res = array.map( f.bind(undefined, 1) );
+``` 
+
+...make a builder function istead:
+
+```javascript
+function fn(n) {
+	return function fn_(a) {
+		return f(n, a);
+	};
+}
+
+var res = array.map( fn(1) );
+```
+
+It's also interesting that it seems to faster to use the result inline. It is actually slower if you save the result. Tested on Safari and Google Chrome environments. Additional 
+research would be important.
+
+******************************************************************************
