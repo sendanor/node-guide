@@ -23,6 +23,7 @@
 * Layout, http://purecss.io/
 * Icons, http://fortawesome.github.io/Font-Awesome/
 * Bootstrap (layout, ui), http://getbootstrap.com/
+* Font-Awesome, http://fontawesome.io/
 
 ### Translations
 
