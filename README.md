@@ -447,7 +447,7 @@ For example when you need to do things like this:
 var res = array.map( f.bind(undefined, 1) );
 ``` 
 
-...make a builder function istead:
+...make a builder function istead (70% faster):
 
 ```javascript
 function fn(n) {
